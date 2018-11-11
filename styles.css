@@ -1,0 +1,34 @@
+ 
+#footer{
+    display: grid;
+    grid-template-columns: 160%;
+   
+    height:40px;
+    line-height:10px;
+    background:rgb(33, 52, 221);
+    color:#fff;
+ 
+    position:absolute;
+    bottom:0px;
+    width:100%;
+}
+
+ul {
+    margin:0;padding:0;
+    display:grid;
+    
+    list-style-type:none;
+    margin:0;padding:0;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(2, auto);
+}
+ul li {
+    padding: 1em;
+    color:#E98A8A;
+}
+ul li span {
+    display:block;
+    font-size:0.9em;
+    margin-bottom:1em;
+    color: white;
+}
